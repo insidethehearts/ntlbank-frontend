@@ -4,10 +4,40 @@ h1 {
     margin: 0;
 }
 
+.block-wrapper {
+    width: 100vw;
+}
+
 .block-title {
     text-align: center;
     position: relative;
+}
+
+.first-block-title {
     width: 100%;
+}
+
+.second-block-title {
+    margin-top: 50px;
+    margin-right: 100px;
+    color: #f6f7f8;
+}
+
+.second-block-content {
+    color: #f6f7f8;
+}
+
+.second-block-button {
+    text-decoration: none;
+    color: #000000;
+    background-color: #f5c02d;
+    box-shadow: 0px 5px 0px #866918;
+    padding: 20px 60px;
+    font-size: 22px;
+    border-radius: 200px;
+    /* margin-top: 200px; */
+    bottom: 100px;
+    position: absolute;
 }
 
 .block-subtitle {
@@ -15,13 +45,14 @@ h1 {
 }
 
 .blocks-container {
-    width: 100vw;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
 }
 
 .block {
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 25px;
     width: 50vw;
     min-height: 100px;
@@ -29,13 +60,75 @@ h1 {
 }
 
 .first-block {
-    position: absolute;
     /*background-color: #ffffff;*/
-    align-items: center;
-    justify-content: center;
     height: 100px;
+}
+
+.second-block {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    width: 100vw;
+    border-radius: 0px;
+    position: relative;
+}
+
+.cards-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
 }
 
 .first-block-subtitle {
     text-align: center;
+}
+
+.third-block-content {
+}
+
+.third-block {
+    width: 50vw;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px rgb(245, 192, 45, 0.4);
+    background-color: #f5c02d;
+
+    display: flex;
+    justify-content: center;
+}
+
+.third-block-title {
+    width: 100%;
+}
+
+.third-block-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333333;
+
+    border-radius: 200px;
+    box-shadow: 0px 5px 0px #866918;
+    font-size: 22px;
+    margin-top: 20px;
+
+    box-sizing: border-box;
+}
+
+.third-block-button-text {
+    padding: 20px 40px;
+}
+
+.payment-image {
+    height: 250px;
+}
+
+.block-button {
+    font-family: 'Noto-Sans-Mono', sans-serif;
+    transition: all ease-in-out 0.3s;
+}
+
+.block-button:hover {
+    transform: scale(110%);
 }

@@ -1,0 +1,78 @@
+.transfer-wrapper {
+    display: flex;
+    justify-content: center;
+    min-height: 85vh;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.transfer-container {
+    margin: 20px;
+    width: 60vw;
+}
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #f5c02d;
+    outline: none;
+}
+
+.details-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.details-row .input-group {
+    flex: 0 0 calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+.transfer-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.transfer-button {
+    background-color: #f5c02d;
+    color: #333;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.transfer-button:hover {
+    background-color: #d6a828;
+}

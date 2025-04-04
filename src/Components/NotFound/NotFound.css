@@ -1,0 +1,28 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.not-found-title {
+    font-size: 90px;
+}
+
+.not-found-subtitle {
+    font-size: 50px;
+}
+
+.go-main {
+    text-decoration: none;
+    font-family: 'Noto-Sans-Mono', sans-serif;
+    font-size: 22px;
+
+    color: #000000;
+    background-color: #f5c02d;
+    box-shadow: 0px 5px 0px #866918;
+
+    padding: 20px 60px;
+    border-radius: 100px;
+}

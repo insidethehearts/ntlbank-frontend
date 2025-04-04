@@ -6,15 +6,33 @@ header {
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.05);
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-link {
+    display: flex;
     padding: 0px 10px;
+}
+
+.header-logo-image {
+    width: 34px;
+    height: 34px;
 }
 
 .private-cabinet-button {
     position: absolute;
     right: 0;
+}
+
+.header-ol {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
 }
 
 li {

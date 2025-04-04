@@ -1,0 +1,169 @@
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    min-height: 50px;
+    width: 50vw;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    padding: 30px;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-information {
+    position: relative;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 20px;
+    min-width: 375px;
+}
+
+.card-information-ol {
+    display: block;
+    padding: 0px;
+}
+
+.card-information-li {
+    display: block;
+    font-family: 'Noto-Sans-Mono', sans-serif;
+}
+
+.debit-card-container {
+    background-color: #f5c02d;
+}
+
+li, ol {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.credit-card-container {
+    background-color: #333333;
+    color: #ffffff;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.second-card-image {
+    margin-right: 10px;
+}
+
+.card-information-button {
+    width: fit-content;
+    margin-top: 20px;
+    padding: 20px 60px;
+}
+
+.card-information-subtitle {
+    width: 100%;
+}
+
+.debit-card-information-button {
+    background-color: #333333;
+    box-shadow: 0px 5px 0px #866918;
+    border-radius: 100px;
+}
+
+.credit-card-information-button {
+    background-color: #f5c02d;
+    box-shadow: 0px 5px 0px #866918;
+    border-radius: 100px;
+}
+
+.debit-card-information-button-link {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Noto-Sans-Mono', sans-serif;
+}
+
+.credit-card-information-button-link {
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Noto-Sans-Mono', sans-serif;
+}
+
+.card-information-button-link {
+    text-decoration: none;
+}
+
+.card-image {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 230px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: relative;
+    font-family: sans-serif;
+}
+
+.card-image-top {
+    height: 40%;
+    font-size: 26px;
+    margin-left: 25px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.card-image-mid {
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-image-prebot {
+    margin-top: 10px;
+    display: flex;
+}
+
+.card-image-bot {
+    margin-top: 10px;
+    margin-left: 37px;
+}
+
+.card-image-date, .card-image-cvv {
+    width: 50%;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.card-image-chip {
+    height: 50px;
+}
+
+.products-about {
+    display: flex;
+    width: 100vw;
+    margin-top: 15px;
+    background-color: #333333;
+    justify-content: center;
+}
+
+.products-about-content {
+    width: 50vw;
+    color: #ffffff;
+}
+
+.products-about-h1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.products-about-p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}

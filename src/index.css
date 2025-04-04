@@ -1,20 +1,15 @@
-body, ul, ol, li, header { 
+body, header { 
     padding: 0px;
     margin: 0px;
     display: flex;
     background-color: #f6f7f8;
     font-family: "Comfortaa";
-    
+}
+
+.third-block-content {
+    padding: 0px 25px 0px 20px;
 }
 
 nav {
     display: flex;
-}
-
-.header-logo {
-    --logo-image-width: 34px;
-}
-
-.header-logo-image {
-    width: var(--logo-image-width)
 }

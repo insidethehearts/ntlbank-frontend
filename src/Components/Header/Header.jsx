@@ -6,19 +6,18 @@ export default function Header() {
         <header>
             <nav>
             <div className='header-logo'>
-                <a href='#'><img className='header-logo-image' src='./bank-y.png' alt='LOGO'/></a>
+                <a className='header-logo-link' href='/'><img className='header-logo-image' src='/bank-y.png' alt='LOGO'/></a>
             </div>
 
-            <ol>
-                <li><a className='page-button' href='#'>Главная</a></li>
-                <li><a className='page-button' href='#'>Продукты</a></li>
-                <li><a className='page-button' href='#'>Переводы</a></li>
-                <li><a className='page-button' href='#'>О проекте</a></li>
+            <ol className='header-ol'>
+                <li className='header-li'><a className='page-button' href='/'>Главная</a></li>
+                <li className='header-li'><a className='page-button' href='/products'>Продукты</a></li>
+                <li className='header-li'><a className='page-button' href='/money-transfer'>Переводы</a></li>
             </ol>
 
-            <a href="#" className="private-cabinet-button">
+            <a href="/private-cabinet" className="private-cabinet-button">
                 Личный кабинет
-                <img className='private-cabinet-icon' src='./people.svg' alt='Тут должно быть изображение' />
+                <img className='private-cabinet-icon' src='/people.svg' alt='Тут должно быть изображение' />
             </a>
             </nav>
         </header>
